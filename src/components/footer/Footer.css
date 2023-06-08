@@ -1,0 +1,30 @@
+.footer {
+	height: 55px;
+	background: #0067A3;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 19px 0 21px;
+	align-items: center;
+	width: 100%;
+}
+
+.counts {
+	display: flex;
+}
+
+.count {
+	position: relative;
+	margin-right: 36px;
+}
+
+.copy {
+	margin-left: auto;
+}
+
+@media only screen and (max-width: 617px) {
+	.footer {
+		color: #0079BF;
+		background: #0079BF;
+	}
+}
